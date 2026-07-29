@@ -67,7 +67,7 @@ jobs:
       - name: Check .github/dependabot.yml
         id: check-dependabot-file
         continue-on-error: true
-        uses: skills/action-keyphrase-checker@v1
+        uses: skills/action-keyphrase-checker@v2
         with:
           text-file: ${{ env.DEPENDABOT_FILE }}
           keyphrase: ${{ env.DEPENDABOT_KEYPHRASE }}

@@ -79,7 +79,7 @@ jobs:
       - name: Check package-lock.json
         id: check-keyphrase
         continue-on-error: true
-        uses: skills/action-keyphrase-checker@v1
+        uses: skills/action-keyphrase-checker@v2
         with:
           text-file: ${{ env.FOLLOW_REDIRECTS_FILE }}
           keyphrase: "1\\.14\\.1"
