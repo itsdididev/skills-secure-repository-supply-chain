@@ -6,7 +6,7 @@ You now have automated the process for Dependabot to alert you to vulnerabilitie
 
 > [!NOTE]  
 > Did you notice that there were several pull requests suggested by Dependabot? You only merged the one related to the **axios** dependency, but the others disappeared from the **Pull requests** panel. That's because the upgrade of the axios dependency triggered changes of other transitive dependencies, that might be either removed or updated to other versions. Whenever there is a change in your dependency graph, Dependabot will automatically review the existing pull requests and close the ones that are no longer relevant. So don't merge everything at once, let Dependabot do the job for you! 
-<img width="955" alt="Screenshot showing that the axios PR was merged and that the 2 others were closed" src="../images/axios-pr-merged-others-closed.png" />
+<img width="955" alt="Screenshot showing that the axios PR was merged and that the 2 others were closed" src="https://github.com/itsdididev/skills-secure-repository-supply-chain/blob/main/.github/images/axios-pr-merged-others-closed.png?raw=true" />
 
 
 The security updates feature helps automate the process to resolve alerts, but what about just keeping up-to-date with version updates? We can also automate pull request generation for updated versions of dependencies using the Dependabot version updates feature.
